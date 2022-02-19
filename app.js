@@ -167,3 +167,5 @@ taskList.addEventListener("click", (e) => {
 e.preventDefault();
 });
 
+// element.setAttribute("contenteditable", true); // elementin içeriğini düzenleyebilmeye yarar.
+//bunu sonra bir deneyelim.
