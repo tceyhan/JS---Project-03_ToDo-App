@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App Project</title>
+    <link rel="stylesheet" href="todoapp.css">
+    
+</head>
+<body>
+    <section class="contianer">
+        <header>
+            <center><h1>Please Your Enter Task</h1></center>
+            <div class="task-div">
+                <input type="text" name="task-input" id="task-input" required>
+                <button type="submit" class="add-btn"><img src="add_icon.png" alt="" class="add-icon"></button>
+            </div>
+        </header>
+        <main>
+            <h2>***ToDo LIST***</h2>
+            <ol class="task-list">
+                <li class="task">
+                    <span class="task-name">"ASLA PES ETME !"</span>
+                    <button class="delete-btn"><img src="cop_icon.png" class="delete-icon"></button>
+                    <button class="edit-btn"><img src="edit_icon.png" alt="" class="edit-icon"></button>
+                </li>
+            </ol>
+        </main>
+    </section>
+
+<script src="app.js"></script>
+</body>
+</html>
